@@ -3,4 +3,17 @@
     color: rgb(32, 203, 209);
     padding: 15px;
     border-radius: 20px;
-    box-shadow: 0 0 5px black;}
+    box-shadow: 0 0 5px black;
+}
+.swapbox_select {
+    width: 50%;
+    float: left
+}
+.swapbox{
+    overflow: auto;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #2f2f2f;
+    border-radius: 20px;
+    border: 1px solid #565656;
+}
