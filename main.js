@@ -12,4 +12,8 @@ async function login() {
     }
 }
 
+function openModal(){
+    document.getElementById("token_modal").style.display = "block";
+}
+document.getElementById("from_token_select").onclick = openModal;
 document.getElementById("login_button").onclick = login;

@@ -20,3 +20,10 @@
 .navbar-light .navbar-brand {
     color: rgb(182 18 212 / 88%);
 }
+.token_select{
+    padding: 5px 0;
+}
+.token_select:hover{
+    background-color: rgb(72, 66, 73);
+    cursor: pointer;
+}
