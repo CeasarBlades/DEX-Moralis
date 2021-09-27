@@ -17,10 +17,10 @@ async function listAvailableTokens(){
           let token = tokens[address];
           let div = document.createElement("div");
           div.className = "token_row";
-          let html = `
-          <img class="token_list_img" src="${token.logoURI}">
-          <span class="token_list_text">${token.symbol}</span>
-          `
+           let html = `
+        <img class="token_list_img" src="${token.logoURI}">
+        <span class="token_list_text">${token.symbol}</span>
+        `
           div.innerHTML = html;
           parent.appendChild(div);
           
